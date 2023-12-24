@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+.skillcontainer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 200px 0px;
+    
+    }
+.skillcontainertext{
+    color:white;
+    flex:0.6;
+    text-align: left;
+    max-width: 250px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    }
+.skillcontainer_skillset > h2{
+font-size: 30px;
+}
+.skillcontainerimage{
+    flex:0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+.skillcontainerimage > img{
+    width: 500px;
+    height: 500px;
+    border-radius: 2px;
+    
+
+}
+.skillcontainer_skillset>h5{
+    font-family: "monserrat",sans-serif;
+}
+
+.skillcontainer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 400px 0px;
+    }
+.skillcontainertext1{
+    color:white;
+    flex:0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+.skillcontainer_skillset1 > h2{
+font-size: 30px;
+}
+.skillcontainerimage{
+    flex:0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+.skillcontainerimage > img{
+    width: 600px;
+    border-radius: 2px;
+    object-fit: contain;
+
+}
+.skillcontainer_skillset1>h5{
+    font-family: "monserrat",sans-serif;
+}

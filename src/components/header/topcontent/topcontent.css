@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+#topcontent{
+color:white;
+}
+#topcontent_container{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+#topcontent_container > p{
+    letter-spacing: 1px;
+    text-overflow:clip;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+#topcontent_container > a > button{
+margin-top: 30px;
+text-align: left;
+margin-left: 5px;
+border: none;
+border-radius: 2px;
+outline: none;
+}
+#topcontent_container{
+font-size: 15px;
+font-family: "montserrat",sans-serif;
+}
+#topcontent_downloadbutton{
+    color:white;
+    background-color:#f64646;
+    font-size: 24px;
+    padding: 10px 30px;
+    font-family: "montserrat",sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#topcontent_myworkbutton{
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding:9px 49px;
+    font-family: "montserrat",sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+#topcontent_downloadbutton:hover{
+    color: #f64646;
+    background-color: white;
+    font-weight: 600;
+
+}
+#topcontent_myworkbutton:hover{
+    color:black;
+    background-color: white;
+    font-weight: 600;
+}
+.box{
+    inline-size: 400px;
+    overflow-wrap: break-word;
+}
+h1{
+    font-size: 40px;
+}
